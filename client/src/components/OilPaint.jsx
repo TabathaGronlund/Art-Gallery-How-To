@@ -3,8 +3,8 @@ import React from 'react'
 
 const OilPaint = () => {
   return (
-    <div>
-      
+    <div className='how-to-container'>
+      <h1>Oil Paint</h1>
     </div>
   )
 }

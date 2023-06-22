@@ -3,8 +3,8 @@ import React from 'react'
 
 const pastel = () => {
   return (
-    <div>
-      
+    <div className='how-to-container'>
+      <h1>Pastels</h1>
     </div>
   )
 }

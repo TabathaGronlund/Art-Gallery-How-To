@@ -3,8 +3,8 @@ import React from 'react'
 
 const Graphite = () => {
   return (
-    <div>
-      
+    <div className='how-to-container'>
+      <h1 className='h1-graphite'>Graphite</h1>
     </div>
   )
 }

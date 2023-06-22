@@ -3,8 +3,8 @@ import React from 'react'
 
 const AcrylicPaint = () => {
   return (
-    <div>
-      
+    <div className='how-to-container'>
+      <h2>Acrylic Paint</h2>
     </div>
   )
 }
