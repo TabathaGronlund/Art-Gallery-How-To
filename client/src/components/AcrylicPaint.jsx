@@ -4,7 +4,7 @@ import React from 'react'
 const AcrylicPaint = () => {
   return (
     <div className='how-to-container'>
-      <h2>Acrylic Paint</h2>
+      <h2 className='foreground'>Acrylic Paint</h2>
     </div>
   )
 }

@@ -1,12 +1,12 @@
 //this will hold the videos and information
 import React from 'react'
 
-const pastel = () => {
+const Pastel = () => {
   return (
     <div className='how-to-container'>
-      <h1>Pastels</h1>
+      <h1 className='foreground'>Pastels</h1>
     </div>
   )
 }
 
-export default pastel
+export default Pastel

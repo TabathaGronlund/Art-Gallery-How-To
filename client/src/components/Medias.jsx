@@ -4,7 +4,7 @@ import React from 'react'
 const Medias = () => {
   return (
     <div>
-      
+      <h1 className='foreground'>Medias</h1>
     </div>
   )
 }

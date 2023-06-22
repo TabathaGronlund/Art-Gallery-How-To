@@ -67,10 +67,7 @@ body {
   color:black;
 }
 
-.h1-graphite {
-  font-family: 'Dancing Script', cursive;
-/* font-family: 'Lora', serif; */
-}
+
 .info-box {
   height: 300px;
   margin-top: 50px;
@@ -102,4 +99,15 @@ background-blend-mode: screen;
 height: 1000px;
 margin-left: 80px;
 margin-right: 80px;
+border-style: solid;
+border-color: antiquewhite;
+
+}
+
+.foreground {
+  background: white;
+  height: 80px;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+    background-size: 20%;
+    font-family: 'Dancing Script', cursive;
 }
