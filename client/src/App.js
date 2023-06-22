@@ -25,6 +25,7 @@ function App() {
           <Route path='/media' element={<Medias />}></Route>
           <Route path='/yourchosenart' element={<ArtPage />}></Route>
           <Route path='/learnwaterpaint' element={<WatercolorPaint/>}></Route>
+          <Route path="/headerhome" element={<Header/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

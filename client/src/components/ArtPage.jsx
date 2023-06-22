@@ -1,9 +1,12 @@
 //this is where we will link the API call
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const ArtPage = () => {
+    const navigate = useNavigate()
   return (
-    <div>
+      <div>
+        <button onClick={() => navigate(`/`)}>home</button>
       
     </div>
   )
