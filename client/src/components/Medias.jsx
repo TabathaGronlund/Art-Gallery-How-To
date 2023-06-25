@@ -10,6 +10,10 @@ const Medias = () => {
 
       <h1 className='foreground'>Medias</h1>
       
+
+
+
+      
     </div>
   )
 }
