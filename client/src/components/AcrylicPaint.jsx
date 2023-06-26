@@ -7,7 +7,9 @@ const AcrylicPaint = () => {
   return (
     <div className='how-to-container'>
           <button onClick={() => navigate(`/`)}>home</button>
-
+          <p>Acrylic paints: Versatile, water-based. Quick-drying,
+             vibrant colors. Adheres to various surfaces. Translucent washes
+              or opaque layers. Easy cleanup. Freedom to explore and create.</p>
       <h2 className='foreground'>Acrylic Paint</h2>
     </div>
   )
