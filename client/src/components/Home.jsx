@@ -1,4 +1,5 @@
-//This is where the buttons and other components will have their links
+//This is where the buttons and other components will have their links and pull from the API
+
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
@@ -14,6 +15,7 @@ const Home = () => {
         <label for="searchInput">Search<i className="art-search"></i></label>
         <input className='search-bar' id="searchInput" type="text" placeholder="EX: Van Gogh" />
       </div>
+      {/* API art institute SIM */}
       <div className='contained-media'>
         <div className='info-box'>Medias
           <p>Paint, graphite, and pastels: Colors, lines, and whispers.

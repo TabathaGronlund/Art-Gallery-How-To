@@ -9,6 +9,10 @@ const Pastel = () => {
           <button onClick={() => navigate(`/`)}>home</button>
 
       <h1 className='foreground'>Pastels</h1>
+      <p>Pastels: Powdered pigments, soft texture. Intense colors,
+         blendable. Expressive strokes, immediate results.
+          Capturing light and texture. Luminous and tactile medium.
+           Creativity unleashed.</p>
     </div>
   )
 }

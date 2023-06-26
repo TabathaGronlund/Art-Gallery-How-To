@@ -25,10 +25,6 @@ const WatercolorPaint = (props) => {
 
 
 
-
-
-
-
       <h2>Water Color Comment</h2>
       {
         allComments.map((comment) => (
@@ -46,6 +42,15 @@ const WatercolorPaint = (props) => {
         ))
       }
       <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
+
+      <p>Watercolors: Translucent and flowing, they create
+         an ethereal world of delicate beauty. With pigments
+          suspended in a water-soluble binder, they blend and
+           layer effortlessly. The transparency allows for soft
+            washes and seamless gradients. Watercolors capture light
+            , evoke emotions, and invite us into the realm of
+             imagination and art.</p>
+
     </div>
   )
 }
