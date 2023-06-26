@@ -8,7 +8,7 @@ const Medias = () => {
     <div className='how-to-container'>
           <button onClick={() => navigate(`/`)}>home</button>
 
-      <h1 className='foreground'>Medias</h1>
+      <h1 className='foreground'>Mediums</h1>
       
 
 

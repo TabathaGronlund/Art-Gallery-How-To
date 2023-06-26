@@ -6,8 +6,10 @@ import React from 'react'
 
 const Comments = () => {
   return (
-    <div>
-      
+    <div className='how-to-container'>
+    <button onClick={() => navigate(`/`)}>home</button>
+
+ <h1 className='foreground'>Comments</h1>
     </div>
   )
 }

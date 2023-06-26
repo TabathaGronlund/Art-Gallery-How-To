@@ -29,9 +29,12 @@ const CommentForm = (props) => {
     }
 
     return ( 
-        <div>
+        <div className='how-to-container'>
+        <button onClick={() => navigate(`/`)}>home</button>
+
+            <h1 className='foreground'>Comments and Concerns</h1>
             <form onSubmit={OnSubmitHandler} >
-                <h3>Submit Comment</h3>
+                {/* <h3>Submit Comment</h3> */}
                 <label className='form-label'>Style:</label>
                 <select className="form-select" name="style" onChange={OnChangeHandler} value={Comment.style}>
                     <option value="OilPaint">OilPaint</option>
