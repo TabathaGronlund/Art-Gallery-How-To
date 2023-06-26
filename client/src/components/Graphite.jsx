@@ -6,11 +6,13 @@ const Graphite = () => {
   const navigate = useNavigate()
   return (
     <div className='how-to-container'>
-          <button onClick={() => navigate(`/`)}>home</button>
+      <button onClick={() => navigate(`/`)}>home</button>
 
-      <h1 className= 'foreground'>Graphite</h1>
+      <h1 className='foreground'>Graphite</h1>
+      <p>Graphite: Versatile pencil medium.
+        Creates precise lines, tonal shading. Captures details,
+        textures, and light. Accessible and expressive.</p>
       <div>
-        <h3>This is your how to</h3>
       </div>
     </div>
   )

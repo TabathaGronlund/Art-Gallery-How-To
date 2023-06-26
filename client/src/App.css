@@ -38,7 +38,7 @@
 } */
 
 .Header {
-  background-image: url(banner-header.png);
+  background-image: url(./img/banner-header.png);
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment: fixed;
@@ -52,7 +52,7 @@
 }
 
 body {
-  background-image: url(background-art.png);
+  background-image: url(./img/background-art.png);
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment: fixed;
@@ -61,7 +61,7 @@ body {
 
 .home-container {
   background-color: rgba(19, 46, 19, 0.596);
-  height: 2500px;
+  height: 000px;
   margin-left: 80px;
   margin-right: 80px;
   border-style: groove;
