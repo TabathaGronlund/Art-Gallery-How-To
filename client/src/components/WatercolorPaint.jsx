@@ -25,7 +25,38 @@ const WatercolorPaint = (props) => {
 
 
 
-      <h2>Water Color Comment</h2>
+
+      <p>Watercolors: Translucent and flowing, they create
+        an ethereal world of delicate beauty. With pigments
+        suspended in a water-soluble binder, they blend and
+        layer effortlessly. The transparency allows for soft
+        washes and seamless gradients. Watercolors capture light
+        , evoke emotions, and invite us into the realm of
+        imagination and art.</p>
+      <div>
+        <div>
+          <h3>Types of Watercolor:</h3>
+          <p>
+
+          </p>
+        </div>
+        <div>
+          <h3>What you'll need:</h3>
+          <p>
+          </p>
+        </div>
+        <div>
+          <h3>Suitable canvas:</h3>
+          <p></p>
+        </div>
+        <div className='youtube-bg'>
+          
+          <h2>Ready to Try?</h2>
+
+        </div>
+      </div>
+
+      <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
       {
         allComments.map((comment) => (
           <tr key={comment._id}>
@@ -41,16 +72,6 @@ const WatercolorPaint = (props) => {
           </tr>
         ))
       }
-      <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
-
-      <p>Watercolors: Translucent and flowing, they create
-         an ethereal world of delicate beauty. With pigments
-          suspended in a water-soluble binder, they blend and
-           layer effortlessly. The transparency allows for soft
-            washes and seamless gradients. Watercolors capture light
-            , evoke emotions, and invite us into the realm of
-             imagination and art.</p>
-
     </div>
   )
 }

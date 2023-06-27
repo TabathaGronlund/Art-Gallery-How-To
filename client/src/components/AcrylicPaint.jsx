@@ -81,6 +81,8 @@ const AcrylicPaint = (props) => {
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
         encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
+      
+      <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
       {
         allComments.map((comment) => (
           <tr key={comment._id}>
@@ -96,7 +98,6 @@ const AcrylicPaint = (props) => {
           </tr>
         ))
       }
-      <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
       <div>
       </div>
     </div>
