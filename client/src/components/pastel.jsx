@@ -25,10 +25,6 @@ const Pastel = (props) => {
 
 
 
-
-
-
-
       <h2>Water Color Comment</h2>
       {
         allComments.map((comment) => (
@@ -46,6 +42,13 @@ const Pastel = (props) => {
         ))
       }
       <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
+
+      <h1 className='foreground'>Pastels</h1>
+      <p>Pastels: Powdered pigments, soft texture. Intense colors,
+         blendable. Expressive strokes, immediate results.
+          Capturing light and texture. Luminous and tactile medium.
+           Creativity unleashed.</p>
+
     </div>
   )
 }

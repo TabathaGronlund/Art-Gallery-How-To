@@ -21,6 +21,7 @@ const Graphite = (props) => {
     <div className='how-to-container'>
       <button onClick={() => navigate(`/`)}>home</button>
 
+
       <h1 className='foreground'>Graphite</h1>
 
 
@@ -46,6 +47,15 @@ const Graphite = (props) => {
         ))
       }
       <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
+
+
+      <h1 className='foreground'>Graphite</h1>
+      <p>Graphite: Versatile pencil medium.
+        Creates precise lines, tonal shading. Captures details,
+        textures, and light. Accessible and expressive.</p>
+      <div>
+      </div>
+
     </div>
   )
 }

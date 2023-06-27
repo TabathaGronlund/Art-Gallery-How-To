@@ -1,4 +1,5 @@
-//This is where the buttons and other components will have their links
+//This is where the buttons and other components will have their links and pull from the API
+
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
@@ -14,8 +15,10 @@ const Home = () => {
         <label for="searchInput">Search<i className="art-search"></i></label>
         <input className='search-bar' id="searchInput" type="text" placeholder="EX: Van Gogh" />
       </div>
+      {/* API art institute SIM */}
       <div className='contained-media'>
-        <div className='info-box'>Medias
+        <div className='info-box'> 
+        <h2>Mediums</h2>
           <p>Paint, graphite, and pastels: Colors, lines, and whispers.
             Each medium a world of its own. Paint breathes life with
             vibrant strokes. Graphite unveils precision in black and white.
@@ -23,9 +26,10 @@ const Home = () => {
             of artistic expression.
           </p>
         </div>
-        <button onClick={() => navigate(`/media`)}>more about medias</button>
+        <button onClick={() => navigate(`/media`)}>more about mediums</button>
         <div className='info-box flex-paint' >
-          <div className='info-paint'>Oil paint
+          <div className='info-paint'>
+            <h2>Oil Paint</h2>
             <p>Oil paints are the sorcerers of the artistic realm,
               enchanting both canvas and creator with their alchemical
               essence. These masterful concoctions, composed of vibrant
@@ -43,7 +47,8 @@ const Home = () => {
               bring dreams to life, breathing soul and passion into the
               realm of art, forever capturing the essence of the human spirit.</p>
           </div>
-          <div className='info-paint'>Water Color
+          <div className='info-paint'>
+            <h2>Watercolor Paint</h2>
             <p>Watercolors are the ethereal dreamweavers of the artistic realm,
               unveiling a world of translucent enchantment with each delicate stroke.
               Born from the harmonious marriage of pigments and water, they possess
@@ -59,7 +64,8 @@ const Home = () => {
               the painters of emotions, weave a tapestry of gentle beauty, leaving
               behind a trail of translucent memories that enchant the observer's heart.</p>
           </div>
-          <div className='info-paint'>acrylic paint
+          <div className='info-paint'>
+            <h2>Acrylic Paint</h2>
             <p>Acrylic paints are the spirited chameleons of the artistic universe,
               embodying versatility and vivacity in every vibrant hue.
               Like liquid poetry, they flow effortlessly from the artist's
@@ -80,7 +86,8 @@ const Home = () => {
         <br></br>
         <button onClick={() => navigate(`/learnwaterpaint`)}>Get Started-watcerclor</button>
         <button onClick={() => navigate(`/learnacrylicpaint`)}>Get Started-acrylic</button>
-        <div className='info-box'>Pastel
+        <div className='info-box'>
+          <h2>Pastel</h2>
           <p>Pastels are the enchanting whispers of the artistic world, harnessing
             the essence of pure pigments in a delicate and powdery embrace. With their
             soft and velvety texture, they glide effortlessly across the surface, revealing
@@ -100,7 +107,8 @@ const Home = () => {
         </div>
 
         <button onClick={() => navigate(`/learnpastel`)}>Get Started-pastel</button>
-        <div className='info-box'>Graphite
+        <div className='info-box'>
+          <h2>Graphite</h2>
           <p>Graphite, the silent conductor of artistic expression, wields the power of monochrome magic.
             In the artist's hand, it dances across the page, leaving trails of subtle shades and
             intricate lines. With its versatile nature, graphite transforms thoughts into tangible
@@ -115,6 +123,8 @@ const Home = () => {
         <button onClick={() => navigate(`/learngraphite`)}>Get Started-graphite</button>
 
       </div>
+      <button className='comment-button' onClick={() => navigate(`/comment form`)}>Comments & questions</button>
+
     </div>
   )
 }
