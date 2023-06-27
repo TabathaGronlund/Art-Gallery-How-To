@@ -24,11 +24,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path='/learngraphite' element={<Graphite />} />
-          <Route path='/learnoilpaint' element={<OilPaint />}></Route>
-          <Route path='/learnacrylicpaint' element={<AcrylicPaint />}></Route>
-          <Route path='/learnpastel' element={<Pastel />}></Route>
-          <Route path='/media' element={<Medias />}></Route>
+          <Route path='/learngraphite' element={<Graphite allComments={allComments} setallComments={setallComments} />} />
+          <Route path='/learnoilpaint' element={<OilPaint allComments={allComments} setallComments={setallComments} />}></Route>
+          <Route path='/learnacrylicpaint' element={<AcrylicPaint allComments={allComments} setallComments={setallComments} />}></Route>
+          <Route path='/learnpastel' element={<Pastel allComments={allComments} setallComments={setallComments} />}></Route>
+          <Route path='/media' element={<Medias allComments={allComments} setallComments={setallComments} />}></Route>
           <Route path='/yourchosenart' element={<ArtPage />}></Route>
           <Route path='/learnwaterpaint' element={<WatercolorPaint allComments={allComments} setallComments={setallComments}/>}></Route>
           <Route path="/headerhome" element={<Header/>}></Route>

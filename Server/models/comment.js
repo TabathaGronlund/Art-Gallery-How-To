@@ -9,7 +9,7 @@ const CommentSchema = new mongoose.Schema({
     style:{
         type:String,
         required: true,
-        enum:{values: ['OilPaint', 'Graphite', 'AcrylicPaint', 'WaterColorPaint', 'Medias'], message:'Not listed Style'}
+        enum:{values: ['OilPaint', 'Graphite', 'AcrylicPaint', 'WaterColorPaint', 'Medias','Pastel'], message:'Not listed Style'}
     },
     // user_id:{
     //     type: mongoose.Types.ObjectId,
