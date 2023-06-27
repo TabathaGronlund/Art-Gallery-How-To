@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <div className='Header'>
 
-        <h3 className='header-text'>Paint Diary</h3>
-        {/* <button onClick={() => navigate(`/`)}>home</button> */}
+      <h3 className='header-text'>Paint Diary</h3>
+      {/* <button onClick={() => navigate(`/`)}>home</button> */}
     </div>
   )
 }

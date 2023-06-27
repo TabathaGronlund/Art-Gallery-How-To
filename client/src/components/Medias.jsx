@@ -21,17 +21,9 @@ const Medias = (props) => {
       <button onClick={() => navigate(`/`)}>home</button>
 
 
-      <h1 className='foreground'>Mediums</h1>
-      
 
 
-
-
-
-
-
-
-      <h2>Medias Comment</h2>
+            <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
       {
         allComments.map((comment) => (
           <tr key={comment._id}>
@@ -47,7 +39,6 @@ const Medias = (props) => {
           </tr>
         ))
       }
-      <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
     </div>
   )
 }

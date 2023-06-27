@@ -64,24 +64,24 @@ const AcrylicPaint = (props) => {
       <div>
         <h3>Suitable canvas:</h3>
         <p>
-          •Acrylic Paper
+          Acrylic Paper
           <br></br>
-          •Mixed Media Paper
+          Mixed Media Paper
           <br></br>
-          •Watercolor Paper (specific types suitable for acrylics)
+          Watercolor Paper (specific types suitable for acrylics)
           <br></br>
-          •Canvas Paper
+          Canvas Paper
           <br></br>
-          •Primed Masonite or Hardboard Panels
+          Primed Masonite or Hardboard Panels
         </p>
       </div>
       <div className='youtube-bg'>
         <h2>Ready to Try?</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_UoPz5pnKQY" 
-        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_UoPz5pnKQY"
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
         encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
-      
+
       <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
       {
         allComments.map((comment) => (

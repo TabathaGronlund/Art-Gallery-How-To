@@ -31,7 +31,7 @@ const Pastel = (props) => {
         Capturing light and texture. Luminous and tactile medium.
         Creativity unleashed.</p>
 
-        <div>
+      <div>
         <div>
           <h3>Types of Watercolor:</h3>
           <p>
@@ -48,7 +48,7 @@ const Pastel = (props) => {
           <p></p>
         </div>
         <div className='youtube-bg'>
-          
+
           <h2>Ready to Try?</h2>
 
         </div>

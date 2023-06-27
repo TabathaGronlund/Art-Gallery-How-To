@@ -17,8 +17,8 @@ const Home = () => {
       </div>
       {/* API art institute SIM */}
       <div className='contained-media'>
-        <div className='info-box'> 
-        <h2>Mediums</h2>
+        <div className='info-box'>
+          <h2>Mediums</h2>
           <p>Paint, graphite, and pastels: Colors, lines, and whispers.
             Each medium a world of its own. Paint breathes life with
             vibrant strokes. Graphite unveils precision in black and white.

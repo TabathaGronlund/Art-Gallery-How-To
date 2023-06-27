@@ -1,30 +1,30 @@
-import React, {useEffect, useState} from 'react';
-import {useParams, useNavigate} from 'react-router-dom'
+import React, { useEffect, useState } from 'react';
+import { useParams, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
 const EditingCommentForm = (props) => {
     const navigate = useNavigate()
     const { id } = useParams()
-    const [Errors,setErrors] = useState({})
-    const {allComments, setallComments} = props
-    const [Comment,setComment] = useState({
-        comment:'',
-        style:'OilPaint'
+    const [Errors, setErrors] = useState({})
+    const { allComments, setallComments } = props
+    const [Comment, setComment] = useState({
+        comment: '',
+        style: 'OilPaint'
     })
     useEffect(() => {
         axios.get(`http://localhost:8000/api/oneComment/${id}`,)
-        .then((res) => {
-            setComment(res.data)
-        })
-        .catch((err) =>{
-            console.log(err);
-        })
-    }, [] )
+            .then((res) => {
+                setComment(res.data)
+            })
+            .catch((err) => {
+                console.log(err);
+            })
+    }, [])
 
 
 
     const OnChangeHandler = (e) => {
-        setComment({...Comment, [e.target.name]: e.target.value})
+        setComment({ ...Comment, [e.target.name]: e.target.value })
     }
 
     const OnSubmitHandler = (e) => {
@@ -40,7 +40,7 @@ const EditingCommentForm = (props) => {
 
     }
 
-    return ( 
+    return (
         <div>
             <form onSubmit={OnSubmitHandler} >
                 <h3>Submit Comment</h3>
@@ -56,9 +56,9 @@ const EditingCommentForm = (props) => {
                 <label className='form-label'>Comment:</label>
                 <input className='form-control' type="text" onChange={OnChangeHandler} value={Comment.comment} name='comment' />
                 {
-                    Errors.comment?
-                    <p className="text-danger">{Errors.comment.message}</p>:
-                    null
+                    Errors.comment ?
+                        <p className="text-danger">{Errors.comment.message}</p> :
+                        null
                 }
                 <button className='btn btn-primary mt-4'> Add Comment </button>
             </form>
