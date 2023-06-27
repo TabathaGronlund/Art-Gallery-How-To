@@ -37,7 +37,7 @@ const SingleComment = (props) => {
 
 return (
     <div>
-        <h1>Comment Detail</h1>
+        <h1>Comment <br></br> Delete</h1>
         <p>Comment: {Comment.comment}</p>
         <p>Style: {Comment.style}</p>
         <p>Posted At: {Comment.updatedAt}</p>

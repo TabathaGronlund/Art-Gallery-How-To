@@ -123,7 +123,7 @@ const Home = () => {
         <button onClick={() => navigate(`/learngraphite`)}>Get Started-graphite</button>
 
       </div>
-      <button className='comment-button' onClick={() => navigate(`/comment form`)}>Comments & questions</button>
+      <button className='comment-button' onClick={() => navigate(`/commentform`)}>Comments & questions</button>
 
     </div>
   )

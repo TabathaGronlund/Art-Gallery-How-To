@@ -55,7 +55,7 @@ const DisplayAllComments = (props) => {
                                 <td>{comment.comment}</td>
                                 <td>{comment.style}</td>
                                 <td className="d-flex justify-content-evenly">
-                                <Link to={`/CommentDetail/${comment._id}`}>Detail</Link>
+                                <Link to={`/CommentDetail/${comment._id}`}>Delete</Link> <br></br>
                                 <Link to={`/EditingCommentForm/${comment._id}`}>Edit</Link>
                                 </td>
                             </tr>
