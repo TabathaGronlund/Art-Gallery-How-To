@@ -39,6 +39,7 @@ const CommentForm = (props) => {
                     <option value="AcrylicPaint">AcrylicPaint</option>
                     <option value="WaterColorPaint">WaterColorPaint</option>
                     <option value="Medias">Medias</option>
+                    <option value="Pastel">Pastel</option>
                 </select>
                 <label className='form-label'>Comment:</label>
                 <input className='form-control' type="text" onChange={OnChangeHandler} value={Comment.comment} name='comment' />
