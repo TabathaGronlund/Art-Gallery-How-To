@@ -11,7 +11,9 @@ const Home = () => {
 
     <div className='home-container'>
       <div id="search">
-        <h2>Look for your art here:</h2>
+        <h1 className='foreground-1'> <strong>Start your journey of color and lay your path</strong></h1>
+        <h2 className='foreground'>Look for art you'd like to recreate:</h2>
+        
         <label for="searchInput">Search<i className="art-search"></i></label>
         <input className='search-bar' id="searchInput" type="text" placeholder="EX: Van Gogh" />
       </div>
@@ -83,7 +85,7 @@ const Home = () => {
           </div>
         </div>
         <button onClick={() => navigate(`/learnoilpaint`)}>Get Started-oil</button>
-        <br></br>
+        {/* <br></br> */}
         <button onClick={() => navigate(`/learnwaterpaint`)}>Get Started-watcerclor</button>
         <button onClick={() => navigate(`/learnacrylicpaint`)}>Get Started-acrylic</button>
         <div className='info-box'>
