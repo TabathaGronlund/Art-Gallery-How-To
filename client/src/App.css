@@ -36,6 +36,7 @@ to {
   height: 300px;
   border-radius: 50px;
   font-size: 50px;
+  margin-bottom: 50px;
 }
 
 .header-text {
@@ -46,7 +47,7 @@ to {
 .size-font-down {
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
-  color:rgb(11, 60, 44);
+  color:rgb(253, 255, 254);
 }
 
 body {

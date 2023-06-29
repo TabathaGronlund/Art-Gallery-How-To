@@ -88,6 +88,7 @@ const OilPaint = (props) => {
 
       <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
       {
+        
         allComments.map((comment) => (
           <tr key={comment._id}>
             {
