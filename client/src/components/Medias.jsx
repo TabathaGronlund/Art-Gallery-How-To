@@ -19,7 +19,7 @@ const Medias = (props) => {
   return (
     <div className='how-to-container length-down'>
 
-      <button onClick={() => navigate(`/`)}>home</button>
+      <button onClick={() => navigate(`/`)}>Home</button>
       <h1 className='foreground'>Famous Mediums</h1>
       <div className='flex-img-oil'>
         <h1>Famous Oil paintings</h1>
@@ -55,6 +55,13 @@ const Medias = (props) => {
       <div><p>Self Portrait</p><img src="/art-img/Self-Portrait.png" alt="self portrait"/></div>
       <div><p>Watering Horses</p><img src="/art-img/watering-horses.png" alt="watering horses"/></div>
       </div>
+      <div className='video-bg'>
+        <h2 className='foreground'> Brush Information</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/m4gF_p-GQ2I" 
+        title="YouTube video player" frameborder="0" allow="accelerometer;
+         autoplay; clipboard-write; encrypted-media; gyroscope;
+          picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
 
       <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
       {
@@ -72,6 +79,8 @@ const Medias = (props) => {
           </tr>
         ))
       }
+            <button onClick={() => navigate(`/`)}>Home</button>
+
     </div>
   )
 }

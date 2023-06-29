@@ -37,14 +37,16 @@ const SingleComment = (props) => {
 
     return (
         <div>
-        <button onClick={() => navigate(`/`)}>home</button>
+        <button onClick={() => navigate(`/`)}>Home</button>
 
             <h1>Comment <br></br> Delete</h1>
             <p>Comment: {Comment.comment}</p>
             <p>Style: {Comment.style}</p>
             <p>Posted At: {Comment.updatedAt}</p>
             <button onClick={deleteHandler}>Clear Comment</button>
+            <button onClick={() => navigate(`/`)}>Home</button>
         </div>
+
     )
 }
 

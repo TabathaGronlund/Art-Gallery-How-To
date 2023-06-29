@@ -22,11 +22,11 @@ const AcrylicPaint = (props) => {
 
       {/* <h2>AcrylicPaint Comment</h2> */}
 
-      <button onClick={() => navigate(`/`)}>home</button>
+      <button onClick={() => navigate(`/`)}>Home</button>
       <h2 className='foreground'>Acrylic Paint</h2>
-      <p><strong>Acrylic paints:</strong> Versatile, water-based. Quick-drying,
+      <h3>Acrylic paints: Versatile, water-based. Quick-drying,
         vibrant colors. Adheres to various surfaces.<br></br> Translucent washes
-        or opaque layers. Easy cleanup. Freedom to explore and create.</p>
+        or opaque layers. Easy cleanup. Freedom to explore and create.</h3>
 
       <h3>Types of acrylics:</h3>
       <p>
@@ -100,6 +100,8 @@ const AcrylicPaint = (props) => {
       }
       <div>
       </div>
+      <button onClick={() => navigate(`/`)}>Home</button>
+
     </div>
   )
 }

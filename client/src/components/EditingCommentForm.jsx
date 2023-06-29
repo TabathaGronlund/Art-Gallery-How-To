@@ -42,7 +42,7 @@ const EditingCommentForm = (props) => {
 
     return (
         <div>
-            <button onClick={() => navigate(`/`)}>home</button>
+            <button onClick={() => navigate(`/`)}>Home</button>
 
             <form onSubmit={OnSubmitHandler} >
                 <h3>Submit Comment</h3>
@@ -64,6 +64,8 @@ const EditingCommentForm = (props) => {
                 }
                 <button className='btn btn-primary mt-4'> Add Comment </button>
             </form>
+            <button onClick={() => navigate(`/`)}>Home</button>
+
         </div>
     )
 

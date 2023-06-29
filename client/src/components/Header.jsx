@@ -8,7 +8,6 @@ const Header = () => {
     <div className='Header'>
 
       <h3 className='header-text'>Paint Diary</h3>
-      {/* <button onClick={() => navigate(`/`)}>home</button> */}
     </div>
   )
 }

@@ -20,13 +20,13 @@ const OilPaint = (props) => {
   return (
     <div className='how-to-container'>
 
-      <button onClick={() => navigate(`/`)}>home</button>
+      <button onClick={() => navigate(`/`)}>Home</button>
 
 
       <h1 className='foreground'>Oil Paint</h1>
-      <p className='explain-media'>Oil paints: Pigments suspended in oil. Vibrant, versatile, slow-drying.
+      <h3 className='explain-media'>Oil paints: Pigments suspended in oil. Vibrant, versatile, slow-drying.
         Blendable, rich colors. Depth and luminosity. Layer, glaze, create textures.
-        Lasting durability. Artistic expression brought to life.</p>
+        Lasting durability. Artistic expression brought to life.</h3>
       <div>
         <h3>Types of oil paints:</h3>
         <p>
@@ -102,6 +102,8 @@ const OilPaint = (props) => {
           </tr>
         ))
       }
+            <button onClick={() => navigate(`/`)}>Home</button>
+
     </div>
   )
 }

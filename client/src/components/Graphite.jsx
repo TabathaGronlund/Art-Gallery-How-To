@@ -20,12 +20,12 @@ const Graphite = (props) => {
   return (
     
     <div className='how-to-container'>
-      <button onClick={() => navigate(`/`)}>home</button>
+      <button onClick={() => navigate(`/`)}>Home</button>
 
       <h1 className='foreground'>Graphite</h1>
-      <p><strong>Graphite:</strong> Versatile pencil medium.
+      <h3>Graphite: Versatile pencil medium.
         Creates precise lines, tonal shading. Captures details,
-        textures, and light. Accessible and expressive.</p>
+        textures, and light. Accessible and expressive.</h3>
       <div>
         <div>
           <h3>Types of Graphite:</h3>

@@ -7,7 +7,7 @@ const ArtPage = () => {
   const navigate = useNavigate()
   return (
     <div>
-      <button onClick={() => navigate(`/`)}>home</button>
+      <button onClick={() => navigate(`/`)}>Home</button>
 
     </div>
   )

@@ -11,7 +11,7 @@ const Home = () => {
 
     <div className='home-container'>
       <div id="search">
-        <h1 className='foreground-1'> <strong>Start your journey of color and lay your path</strong></h1>
+        <h1 className='foreground-1'> <strong>Start your journey of color. Lay your path to an artistic future!</strong></h1>
         <h2 className='foreground'>Look for art you'd like to recreate:</h2>
         
         <label for="searchInput">Search<i className="art-search"></i></label>
@@ -20,15 +20,15 @@ const Home = () => {
       {/* API art institute SIM */}
       <div className='contained-media'>
         <div className='info-box'>
-          <h2>Mediums</h2>
-          <p>Paint, graphite, and pastels: Colors, lines, and whispers.
+          <h1>Mediums</h1>
+          <h3>Paint, graphite, and pastels: Colors, lines, and whispers.
             Each medium a world of its own. Paint breathes life with
             vibrant strokes. Graphite unveils precision in black and white.
             Pastels enchant with velvety hues. Together, they form a symphony
             of artistic expression.
-          </p>
+          </h3>
         </div>
-        <button onClick={() => navigate(`/media`)}>more about mediums</button>
+        <button onClick={() => navigate(`/media`)}>More About Mediums</button>
         <div className='info-box flex-paint' >
           <div className='info-paint'>
             <h2>Oil Paint</h2>
@@ -84,10 +84,10 @@ const Home = () => {
               ever-evolving spirit of artistic expression.</p>
           </div>
         </div>
-        <button onClick={() => navigate(`/learnoilpaint`)}>Get Started-oil</button>
+        <button onClick={() => navigate(`/learnoilpaint`)}>Get Started-Oil</button>
         {/* <br></br> */}
-        <button onClick={() => navigate(`/learnwaterpaint`)}>Get Started-watcerclor</button>
-        <button onClick={() => navigate(`/learnacrylicpaint`)}>Get Started-acrylic</button>
+        <button onClick={() => navigate(`/learnwaterpaint`)}>Get Started-Watcerclor</button>
+        <button onClick={() => navigate(`/learnacrylicpaint`)}>Get Started-Acrylic</button>
         <div className='info-box'>
           <h2>Pastel</h2>
           <p>Pastels are the enchanting whispers of the artistic world, harnessing
@@ -108,7 +108,7 @@ const Home = () => {
             to explore a world where beauty and creativity coalesce in harmonious serenity.</p>
         </div>
 
-        <button onClick={() => navigate(`/learnpastel`)}>Get Started-pastel</button>
+        <button onClick={() => navigate(`/learnpastel`)}>Get Started-Pastel</button>
         <div className='info-box'>
           <h2>Graphite</h2>
           <p>Graphite, the silent conductor of artistic expression, wields the power of monochrome magic.
@@ -122,10 +122,12 @@ const Home = () => {
             and reality. Graphite, the conductor of subtlety, invites us to appreciate the elegance
             found in black and white, where lines converge and creativity takes flight.</p>
         </div>
-        <button onClick={() => navigate(`/learngraphite`)}>Get Started-graphite</button>
+        <button onClick={() => navigate(`/learngraphite`)}>Get Started-Graphite</button>
 
       </div>
-      <button className='comment-button' onClick={() => navigate(`/commentform`)}>Comments & questions</button>
+  
+      <button className='comment-button' onClick={() => navigate(`/commentform`)}>Comments & Questions</button>
+      <button onClick={() => navigate(`/`)}>Home</button>
 
     </div>
   )

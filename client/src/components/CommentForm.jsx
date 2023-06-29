@@ -48,6 +48,8 @@ const CommentForm = (props) => {
                 <input className='form-control' type="text" onChange={OnChangeHandler} value={Comment.comment} name='comment' />
                 <button className='btn btn-primary mt-4'> Add Comment </button>
             </form>
+            <button onClick={() => navigate(`/`)}>home</button>
+
         </div>
     )
 

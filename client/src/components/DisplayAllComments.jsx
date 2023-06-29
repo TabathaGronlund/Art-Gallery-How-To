@@ -63,6 +63,8 @@ const DisplayAllComments = (props) => {
                     }
                 </tbody>
             </table>
+            <button onClick={() => navigate(`/`)}>Home</button>
+
         </div>
     )
 }
