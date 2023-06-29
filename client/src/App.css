@@ -148,3 +148,17 @@ th, td {
   margin-top: 80px;
   margin-bottom: 80px;
 }
+
+p {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Lora', serif;
+  font-weight: bolder;
+  /* color:white;   */
+}
+
+img {
+  height:300px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
