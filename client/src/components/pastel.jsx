@@ -21,7 +21,6 @@ const Pastel = (props) => {
     <div className='how-to-container'>
       <button onClick={() => navigate(`/`)}>home</button>
 
-      <h1 className='foreground'>Pastel</h1>
 
 
 
@@ -33,7 +32,7 @@ const Pastel = (props) => {
 
       <div>
         <div>
-          <h3>Types of Watercolor:</h3>
+          <h3>Types of Pastels:</h3>
           <p>
 
           </p>
@@ -50,6 +49,10 @@ const Pastel = (props) => {
         <div className='youtube-bg'>
 
           <h2>Ready to Try?</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/G-CY2pFjWug" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+           allowfullscreen></iframe>
 
         </div>
       </div>

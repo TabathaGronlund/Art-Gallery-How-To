@@ -124,6 +124,8 @@ button {
     font-size: 40px;
     cursor: pointer;
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 table {
@@ -163,5 +165,26 @@ margin-bottom: 20px;
 }
 
 .length-down {
-  height: 9000px;
+  height: 10000px;
 }
+.flex-img-oil{
+background-color: rgba(250, 235, 215, 0.384);
+
+}
+.flex-img-acrylic{
+  background-color: rgba(250, 235, 215, 0.384);
+
+}
+.flex-img-watercolor{
+  background-color: rgba(250, 235, 215, 0.384);
+
+}
+.flex-img-pastel{
+  background-color: rgba(250, 235, 215, 0.384);
+
+}
+.flex-img-graphite{
+  background-color: rgba(250, 235, 215, 0.384);
+
+}
+

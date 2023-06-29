@@ -42,6 +42,8 @@ const EditingCommentForm = (props) => {
 
     return (
         <div>
+            <button onClick={() => navigate(`/`)}>home</button>
+
             <form onSubmit={OnSubmitHandler} >
                 <h3>Submit Comment</h3>
                 <label className='form-label'>Style:</label>

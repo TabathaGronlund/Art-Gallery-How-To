@@ -37,6 +37,8 @@ const SingleComment = (props) => {
 
     return (
         <div>
+        <button onClick={() => navigate(`/`)}>home</button>
+
             <h1>Comment <br></br> Delete</h1>
             <p>Comment: {Comment.comment}</p>
             <p>Style: {Comment.style}</p>

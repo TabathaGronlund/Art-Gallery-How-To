@@ -20,7 +20,7 @@ const Medias = (props) => {
     <div className='how-to-container length-down'>
 
       <button onClick={() => navigate(`/`)}>home</button>
-
+      <h1 className='foreground'>Famous Mediums</h1>
       <div className='flex-img-oil'>
         <h1>Famous Oil paintings</h1>
         <div><p>Mona Lisa</p><img src="/art-img/mona-lisa.png" alt="Mona Lisa" /></div>
@@ -44,17 +44,16 @@ const Medias = (props) => {
       </div>
       <div className='flex-img-watercolor'>
         <h1>Famous Watercolor Paintings</h1>
-      <div><p>Place De Diaghilve</p><img src="/art-img/place-de-diaghilve.png" alt=""/></div>
+      <div><p>Place De Diaghilve</p><img src="/art-img/place-de-diaghilve.png" alt="place de"/></div>
       <div><p>Lake Geneva</p><img src="/art-img/lake-geneva.png" alt="lake geneva"/></div>
       <div><p>La Marie Dieu Doublant</p><img src="/art-img/La-Marie-Dieu-doublant-la-pointe.png" alt="la marie"/></div>
       <div><p>Brown</p><img src="/art-img/brown.png" alt="brown"/></div>
       </div>
       <div className='flex-img-pastel'>
         <h1>Famous Pastel Drawings</h1>
-      <div><p></p><img src="" alt=""/></div>
-      <div><p></p><img src="" alt=""/></div>
-      <div><p></p><img src="" alt=""/></div>
-      <div><p></p><img src="" alt=""/></div>
+      <div><p>Poppies</p><img src="/art-img/poppies-isles-of-shoals.png" alt="poppies"/></div>
+      <div><p>Self Portrait</p><img src="/art-img/Self-Portrait.png" alt="self portrait"/></div>
+      <div><p>Watering Horses</p><img src="/art-img/watering-horses.png" alt="watering horses"/></div>
       </div>
 
       <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
