@@ -9,7 +9,7 @@ const Home = () => {
   return (
 
 
-    <div className='home-container'>
+    <div className='home-container heavy-font'>
       <div id="search">
         <h1 className='foreground-1'> <strong>Start your journey of color. Lay your path to an artistic future!</strong></h1>
         <h2 className='foreground'>Look for art you'd like to recreate:</h2>
@@ -18,10 +18,11 @@ const Home = () => {
         <input className='search-bar' id="searchInput" type="text" placeholder="EX: Van Gogh" />
       </div>
       {/* API art institute SIM */}
-      <div className='contained-media'>
+      <div className='contained-media '>
         <div className='info-box'>
-          <h1>Mediums</h1>
-          <h3>Paint, graphite, and pastels: Colors, lines, and whispers.
+          <h1><img className='color-wheel' src="art-img/color-wheel.png" alt=""/>Mediums  <img className='color-wheel' src="art-img/color-wheel.png" alt=""/>
+</h1>
+          <h3 className='home-para'>Paint, graphite, and pastels: Colors, lines, and whispers.
             Each medium a world of its own. Paint breathes life with
             vibrant strokes. Graphite unveils precision in black and white.
             Pastels enchant with velvety hues. Together, they form a symphony
@@ -29,10 +30,10 @@ const Home = () => {
           </h3>
         </div>
         <button onClick={() => navigate(`/media`)}>More About Mediums</button>
-        <div className='info-box flex-paint' >
+        <div className='info-box flex-paint length-down-2' >
           <div className='info-paint'>
             <h2>Oil Paint</h2>
-            <p>Oil paints are the sorcerers of the artistic realm,
+            <p className='home-para'>Oil paints are the sorcerers of the artistic realm,
               enchanting both canvas and creator with their alchemical
               essence. These masterful concoctions, composed of vibrant
               pigments suspended in a harmonious blend of oils, unlock
@@ -48,10 +49,11 @@ const Home = () => {
               a story unfolding. Oil paints, the magicians of the palette,
               bring dreams to life, breathing soul and passion into the
               realm of art, forever capturing the essence of the human spirit.</p>
+              <img src="/art-img/oil-img.png" alt=""/>
           </div>
           <div className='info-paint'>
             <h2>Watercolor Paint</h2>
-            <p>Watercolors are the ethereal dreamweavers of the artistic realm,
+            <p className='home-para'>Watercolors are the ethereal dreamweavers of the artistic realm,
               unveiling a world of translucent enchantment with each delicate stroke.
               Born from the harmonious marriage of pigments and water, they possess
               an exquisite fluidity that dances upon the surface of paper, evoking
@@ -65,10 +67,11 @@ const Home = () => {
               the essence of fleeting moments and delicate impressions. Watercolors,
               the painters of emotions, weave a tapestry of gentle beauty, leaving
               behind a trail of translucent memories that enchant the observer's heart.</p>
+              <img className='size-img-down' src="art-img/water-img.png" alt=""/>
           </div>
           <div className='info-paint'>
             <h2>Acrylic Paint</h2>
-            <p>Acrylic paints are the spirited chameleons of the artistic universe,
+            <p className='home-para'>Acrylic paints are the spirited chameleons of the artistic universe,
               embodying versatility and vivacity in every vibrant hue.
               Like liquid poetry, they flow effortlessly from the artist's
               brush, igniting the canvas with a burst of energy and expression.
@@ -82,6 +85,8 @@ const Home = () => {
               resolute intensity. Acrylic paints, the kaleidoscopic maestros,
               transcend boundaries and ignite the imagination, forever embracing the
               ever-evolving spirit of artistic expression.</p>
+              <img className='size-img-down' src="art-img/acrylic-img.png" alt=""/>
+
           </div>
         </div>
         <button onClick={() => navigate(`/learnoilpaint`)}>Get Started-Oil</button>
@@ -90,7 +95,7 @@ const Home = () => {
         <button onClick={() => navigate(`/learnacrylicpaint`)}>Get Started-Acrylic</button>
         <div className='info-box'>
           <h2>Pastel</h2>
-          <p>Pastels are the enchanting whispers of the artistic world, harnessing
+          <p className='home-para'>Pastels are the enchanting whispers of the artistic world, harnessing
             the essence of pure pigments in a delicate and powdery embrace. With their
             soft and velvety texture, they glide effortlessly across the surface, revealing
             a symphony of colors that radiate warmth and depth. These magical sticks of
@@ -106,12 +111,14 @@ const Home = () => {
             gentle elegance, where imagination flourishes and emotions find solace. Pastels,
             the dreamweavers of the artist's touch, enchant the senses and invite us
             to explore a world where beauty and creativity coalesce in harmonious serenity.</p>
+            <img className= 'size-img-down' src="art-img/pastel-img.png" alt=""/>
+
         </div>
 
         <button onClick={() => navigate(`/learnpastel`)}>Get Started-Pastel</button>
         <div className='info-box'>
           <h2>Graphite</h2>
-          <p>Graphite, the silent conductor of artistic expression, wields the power of monochrome magic.
+          <p className='home-para'>Graphite, the silent conductor of artistic expression, wields the power of monochrome magic.
             In the artist's hand, it dances across the page, leaving trails of subtle shades and
             intricate lines. With its versatile nature, graphite transforms thoughts into tangible
             form, capturing light and shadow with delicate precision. From the softest whispers to
@@ -121,6 +128,8 @@ const Home = () => {
             it unravels stories and unveils emotions, effortlessly bridging the gap between imagination
             and reality. Graphite, the conductor of subtlety, invites us to appreciate the elegance
             found in black and white, where lines converge and creativity takes flight.</p>
+            <img className='size-img-down' src="art-img/graphite-img.png" alt=""/>
+
         </div>
         <button onClick={() => navigate(`/learngraphite`)}>Get Started-Graphite</button>
 

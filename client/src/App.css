@@ -18,32 +18,41 @@
 .App-link {
   color: #61dafb;
 }
+
 .from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  transform: rotate(0deg);
+}
+
+to {
+  transform: rotate(360deg);
+}
 
 
 .Header {
   background-image: url(./img/banner-header.png);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
+  height: 300px;
   border-radius: 50px;
+  font-size: 50px;
 }
+
 .header-text {
   font-family: 'Dancing Script', cursive;
-
-  font-weight: 900;
-  font-size: 80px;
+  font-weight: 700;
+  font-size: 100px;
+}
+.size-font-down {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  color:rgb(11, 60, 44);
 }
 
 body {
   background-image: url(./img/background-art.png);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
   /* color: rgb(244, 244, 244); */
 }
@@ -67,35 +76,37 @@ body {
 .info-box {
   height: 5 00px;
   margin-top: 50px;
-    background:
-        linear-gradient(rgba(143, 17, 17, 0.463), transparent),
-        linear-gradient(to top left, rgba(0, 255, 0, 0.422), transparent),
-        linear-gradient(to top right, rgba(27, 27, 114, 0.402), transparent);
-    background-blend-mode: screen;
+  background:
+    linear-gradient(rgba(143, 17, 17, 0.747), transparent),
+    linear-gradient(to top left, rgba(0, 255, 0, 0.694), transparent),
+    linear-gradient(to top right, rgba(27, 27, 114, 0.737), transparent);
+  background-blend-mode: screen;
   margin-left: 80px;
   margin-right: 80px;
-  border-style: solid;
+  border-style:  solid;
   border-color: antiquewhite;
 }
-.flex-paint{
+
+.flex-paint {
   padding-top: 40px;
   height: 1000px;
 }
+
 .info-paint {
   height: fit-content;
 }
 
 .how-to-container {
   background:
-  linear-gradient(rgba(143, 17, 17, 0.589), transparent),
-  linear-gradient(to top left, rgba(30, 134, 30, 0.628), transparent),
-  linear-gradient(to top right, rgba(27, 27, 114, 0.68), transparent);
-background-blend-mode: screen;
-height: 2000px;
-margin-left: 80px;
-margin-right: 80px;
-border-style: solid;
-border-color: antiquewhite;
+    linear-gradient(rgba(143, 17, 17, 0.589), transparent),
+    linear-gradient(to top left, rgba(30, 134, 30, 0.628), transparent),
+    linear-gradient(to top right, rgba(27, 27, 114, 0.68), transparent);
+  background-blend-mode: screen;
+  height: 2000px;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-style: solid;
+  border-color: antiquewhite;
 }
 
 button {
@@ -111,10 +122,11 @@ button {
 .foreground {
   background: white;
   height: 80px;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
-    background-size: 20%;
-    font-family: 'Dancing Script', cursive;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+  background-size: 20%;
+  font-family: 'Dancing Script', cursive;
 }
+
 .foreground-1 {
   font-family: 'Dancing Script', cursive;
   /* font-size: xx-large; */
@@ -122,16 +134,16 @@ button {
 }
 
 .comment-button {
-    display: block;
-    width: 100%;
-    border-style: dotted;
-    background-color: #04AA6D;
-    padding: 14px 28px;
-    font-size: 40px;
-    cursor: pointer;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+  display: block;
+  width: 100%;
+  border-style: dotted;
+  background-color: #04AA6D;
+  padding: 14px 28px;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 table {
@@ -142,7 +154,8 @@ table {
   border-color: azure;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 8px;
 }
@@ -150,7 +163,7 @@ th, td {
 .youtube-bg {
   background: url(./img/youtube-bg.png);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
   border-radius: 50px;
   margin-top: 80px;
@@ -165,36 +178,61 @@ p {
 }
 
 img {
-  height:400px;
-margin-top: 20px;
-margin-bottom: 20px;
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .length-down {
   height: 10000px;
 }
-.flex-img-oil{
-background-color: rgba(250, 235, 215, 0.384);
 
-}
-.flex-img-acrylic{
-  background-color: rgba(250, 235, 215, 0.384);
-
-}
-.flex-img-watercolor{
-  background-color: rgba(250, 235, 215, 0.384);
-
-}
-.flex-img-pastel{
-  background-color: rgba(250, 235, 215, 0.384);
-
-}
-.flex-img-graphite{
-  background-color: rgba(250, 235, 215, 0.384);
-
-}
-.video-bg{
+.flex-img-oil {
   background-color: rgba(250, 235, 215, 0.384);
 
 }
 
+.flex-img-acrylic {
+  background-color: rgba(250, 235, 215, 0.384);
+
+}
+
+.flex-img-watercolor {
+  background-color: rgba(250, 235, 215, 0.384);
+
+}
+
+.flex-img-pastel {
+  background-color: rgba(250, 235, 215, 0.384);
+
+}
+
+.flex-img-graphite {
+  background-color: rgba(250, 235, 215, 0.384);
+
+}
+
+.video-bg {
+  background-color: rgba(250, 235, 215, 0.384);
+
+}
+
+.length-down-2 {
+  height: 3200px;
+}
+
+.color-wheel {
+  height: 20px;
+  border-radius: 20px;
+}
+
+.size-img-down {
+  border-radius: 20px;
+  border-style: dotted;
+  border-color: rgb(249, 139, 49);
+}
+
+.home-para {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 25px;
+}
