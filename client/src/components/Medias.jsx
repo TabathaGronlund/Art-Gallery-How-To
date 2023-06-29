@@ -17,7 +17,7 @@ const Medias = (props) => {
   }, [])
 
   return (
-    <div className='how-to-container'>
+    <div className='how-to-container length-down'>
 
       <button onClick={() => navigate(`/`)}>home</button>
 
@@ -29,16 +29,32 @@ const Medias = (props) => {
         <div><p>Starry Night</p><img src="/art-img/starry-night.png" alt="starry night" /></div>
       </div>
       <div className='flex-img-acrylic'>
-      <img src="" alt=""/>
-      <img src="" alt=""/>
-      <img src="" alt=""/>
-      <img src="" alt=""/>
+        <h1>Famous Acrylic Paintings</h1>
+      <div><p>Campbells Soup Cans</p><img src="/art-img/campbells-soup-cans-andy-warhol.png" alt="andy warhol"/></div>
+      <div><p>Fancy Feathers</p><img src="/art-img/fancy-feathers.png" alt="bird"/></div>
+      <div><p>Mr and Mrs Clark</p><img src="/art-img/Mr-and-Mrs-Clark.png" alt="mr and mrs clark"/></div>
+      <div><p>Letting Go</p><img src="/art-img/letting-go.png" alt="let go"/></div>
       </div>
       <div className='flex-img-graphite'>
-      <img src="" alt=""/>
-      <img src="" alt=""/>
-      <img src="" alt=""/>
-      <img src="" alt=""/>
+        <h1>Graphite Drawings</h1>
+      <div><p>Bear and Bunny</p><img src="/art-img/bear-and-bunny.png" alt="bear and bunny"/></div>
+      <div><p>Eye</p><img src="/art-img/eye.png" alt="eye"/></div>
+      <div><p>Sensazioni</p><img src="/art-img/sensazioni.png" alt="sensazioni"/></div>
+      <div><p>From Flesh</p><img src="/art-img/from-flesh.png" alt="from flesh"/></div>
+      </div>
+      <div className='flex-img-watercolor'>
+        <h1>Famous Watercolor Paintings</h1>
+      <div><p>Place De Diaghilve</p><img src="/art-img/place-de-diaghilve.png" alt=""/></div>
+      <div><p>Lake Geneva</p><img src="/art-img/lake-geneva.png" alt="lake geneva"/></div>
+      <div><p>La Marie Dieu Doublant</p><img src="/art-img/La-Marie-Dieu-doublant-la-pointe.png" alt="la marie"/></div>
+      <div><p>Brown</p><img src="/art-img/brown.png" alt="brown"/></div>
+      </div>
+      <div className='flex-img-pastel'>
+        <h1>Famous Pastel Drawings</h1>
+      <div><p></p><img src="" alt=""/></div>
+      <div><p></p><img src="" alt=""/></div>
+      <div><p></p><img src="" alt=""/></div>
+      <div><p></p><img src="" alt=""/></div>
       </div>
 
       <Link to={`/CommentForm`}><button>Add New Comment</button></Link>
