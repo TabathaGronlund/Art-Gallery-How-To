@@ -2,8 +2,8 @@ The Art Gallery How-to also known as Paint Diary
 
 The pupose of this project was to work with a team and create an application that allows users to
 learn more about different art mediums. My team and I were able to connect 12 components that give
-access to information from grahite to oil paints. The comments portion of the components present the 
-users a platform to discuss, share and ask questions.
+access to information from graphite to oil paints. The comments portion of the components present the 
+users a possibility for a platform to discuss, share and ask questions.
 
 Uilization:
 Javascript,
