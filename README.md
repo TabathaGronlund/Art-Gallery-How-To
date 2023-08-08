@@ -17,10 +17,10 @@ know much about painting or know where to start.
 
 
 ## Screenshots:
-![paint-diary](/img/paint-diary-img-1.png)
-![comments section](/img/art-gallery-comments-img.png)
-![graphite-info](/img/art-gallery-grphite-img.png)
-![graphite-example](/img/art-gallery-grphite-img-2.png)
+![paint-diary](/img/paint-diary-img-1.PNG)
+![comments section](/img/art-gallery-comments-img.PNG)
+![graphite-info](/img/art-gallery-grphite-img.PNG)
+![graphite-example](/img/art-gallery-grphite-img-2.PNG)
 
 
 ## Setup:
